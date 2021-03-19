@@ -37,7 +37,6 @@ public int linearSearch(int catNumToFind)
     return store[count].getInventory();
 }
 
-// recursive linear search
 public int recursiveLinearSearch(int catNumToFind, int startIndex)
 {
   if (startIndex >= store.length)
